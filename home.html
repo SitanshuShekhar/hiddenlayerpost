@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Website</title>
+
+  <style>
+    #progress-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background-color: #ddd;
+      z-index: 9999;
+    }
+    #progress-bar {
+      height: 5px;
+      background-color: #007bff;
+      width: 0;
+    }
+
+  
+
+  </style>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous" />
+
+
+
+  
+  <!-- Include Font Awesome library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Cad38FXAdW9Xz57tBsg+7Y1IWVLZ1NQfzvJIMzhLU+eE80tLWddX9pOzdGZxnYtZL0tD/jQ2wvMeJGKMBFyEKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+
+
+
+
+  
+</head>
+<body>
+
+ 
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">My Portfolio</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#services">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#work-history">Work History</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+
+	<div id="about" class="container py-5">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="https://via.placeholder.com/500x500" class="img-fluid mb-4" alt="Profile Image">
+			</div>
+			<div class="col-md-6">
+				<h2 class="mb-3">About Me</h2>
+				<p>Sitanshu Shekhar is a digital marketing expert with over 5 years of experience in the industry. He has a strong educational background in Computer Science from the University of London, which he blends with his marketing expertise to create effective strategies for companies across the globe.<br><br>
+
+          His core strengths lie in various aspects of digital marketing, including SEO, SEO copywriting, digital branding, and UX. He has worked with a diverse range of companies, including Dahalconsulting, Eproperty Nepal, Discovery World Trekking, Coalition technologies, Thames International College, Tck Tck, and many others.<br><br> 
+          He has also founded his own companies, Hiddenlayer LLC in the US and Hiddenlayer Network Pvt Ltd in Nepal, both of which provide innovative digital marketing solutions to clients worldwide.</p>
+				<div class="d-flex">
+					<a href="#" class="mr-3"><i class="fab fa-facebook fa-2x"></i></a>
+					<a href="#" class="mr-3"><i class="fab fa-twitter fa-2x"></i></a>
+					<a href="#" class="mr-3"><i class="fab fa-instagram fa-2x"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title text-center mb-5">Projects</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+                <img src="project-1.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+                <img src="project-2.png" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+                <img src="project-3.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="py-5">
+        <div class="container">
+          <h2 class="section-title mb-5">Services</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img src="images/seo.jpg" class="card-img-top" alt="SEO">
+                <div class="card-body">
+                  <h5 class="card-title">SEO</h5>
+                  <p class="card-text">Improve your website's ranking in search engines with our SEO services.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img src="images/ux-design.jpg" class="card-img-top" alt="UX Design">
+                <div class="card-body">
+                  <h5 class="card-title">UX Design</h5>
+                  <p class="card-text">Create a better user experience and increase engagement with our UX design services.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img src="images/seo-copywriting.jpg" class="card-img-top" alt="SEO Copywriting">
+                <div class="card-body">
+                  <h5 class="card-title">SEO Copywriting</h5>
+                  <p class="card-text">Get high-quality content that improves your website's visibility and ranking in search engines.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img src="images/resume-writing.jpg" class="card-img-top" alt="Resume Writing">
+                <div class="card-body">
+                  <h5 class="card-title">Resume Writing</h5>
+                  <p class="card-text">Get a professionally written resume that helps you stand out from the crowd.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img src="images/social-media-marketing.jpg" class="card-img-top" alt="Social Media Marketing">
+                <div class="card-body">
+                  <h5 class="card-title">Social Media Marketing</h5>
+                  <p class="card-text">Increase your online presence and engagement with our social media marketing services.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <img src="images/paid-advertisement.jpg" class="card-img-top" alt="Paid Advertisement">
+                <div class="card-body">
+                  <h5 class="card-title">Paid Advertisement</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias repellat sunt temporibus, dicta, ducimus itaque iusto quibusdam beatae autem consequuntur vero ullam debitis consectetur facilis! Maxime deserunt nulla voluptatum?</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="work-history" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <i class="fas fa-briefcase fa-3x mb-2"></i>
+            <h3 class="mb-3">Projects Completed</h3>
+            <div class="progress" style="height: 20px;">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;"
+                   aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <span class="progress-value">75</span>
+              </div>
+            </div>
+            <p class="mt-3">Over 15 Projects Completed</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <i class="fas fa-calendar fa-3x mb-2"></i>
+            <h3 class="mb-3">Years of Experience</h3>
+            <div class="progress" style="height: 20px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 60%;"
+                   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <span class="progress-value">5</span>
+              </div>
+            </div>
+            <p class="mt-3">Over 5 Years of Experience</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <i class="fas fa-thumbs-up fa-3x mb-2"></i>
+            <h3 class="mb-3">Client Satisfaction</h3>
+            <div class="progress" style="height: 20px;">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;"
+                   aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <span class="progress-value">90%</span>
+              </div>
+            </div>
+            <p class="mt-3">Over 90% Client Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" style="margin: 50px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-2 col-3">
+            <a href="mailto:mr.sitanshu.shekhar@gmail.com?subject=Contacting%20for%20your%20service" target="_blank"><i class="fas fa-envelope fa-3x"></i></a>
+          </div>
+          <div class="col-md-2 col-3">
+            <a href="tel:+9779803891322" target="_blank"><i class="fas fa-phone fa-3x"></i></a>
+          </div>
+          <div class="col-md-2 col-3">
+            <a href="https://wa.me/9779803891322" target="_blank"><i class="fab fa-whatsapp fa-3x"></i></a>
+          </div>
+          <div class="col-md-2 col-3">
+            <a href="viber://chat?number=+9779803891322" target="_blank"><i class="fab fa-viber fa-3x"></i></a>
+          </div>
+          <div class="col-md-2 col-3">
+            <a href="https://www.linkedin.com/in/sitanshu-shekhar/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Get a Quote</h3>
+        <p>Fill out our Google Form for a service quote:</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScWNoGVvOQpbZMkb1NOkt3q8YBGODfohISheDXoX9pIFW1jhw/viewform" target="_blank" class="btn btn-primary">Google Form</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <h4>About</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, est vel aliquam ultrices, turpis ex consequat nulla, quis blandit mauris magna ac leo.</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <li><a href="#">Project 3</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4">
+        <h4>Work History</h4>
+        <ul>
+          <li><a href="#">Year 1</a></li>
+          <li><a href="#">Year 2</a></li>
+          <li><a href="#">Year 3</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Service 1</a></li>
+          <li><a href="#">Service 2</a></li>
+          <li><a href="#">Service 3</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4">
+        <h4>Contact</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul>
+          <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">WhatsApp</a></li>
+          <li><a href="#">Viber</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4">
+        <h4>All Pages</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Work History</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h6>About</h6>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h6>Services</h6>
+        <ul class="list-unstyled">
+          <li><a class="text-muted" href="mailto:mr.sitanshu.shekhar@gmail.com?subject=Service quote&body=Hello, I'm interested in your services. Please provide me a quote.">Request a Quote</a></li>
+          <li><a class="text-muted" href="tel:+9779803891322">Call Us</a></li>
+          <li><a class="text-muted" href="https://api.whatsapp.com/send?phone=9779803891322&text=Hello,%20I'm%20interested%20in%20your%20services.%20Please%20provide%20me%20a%20quote.">WhatsApp</a></li>
+          <li><a class="text-muted" href="viber://chat?number=+9779803891322">Viber</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h6>Dummy Menu 1</h6>
+        <ul class="list-unstyled">
+          <li><a class="text-muted" href="#">Dummy Link 1</a></li>
+          <li><a class="text-muted" href="#">Dummy Link 2</a></li>
+          <li><a class="text-muted" href="#">Dummy Link 3</a></li>
+          <li><a class="text-muted" href="#">Dummy Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <h6>Dummy Menu 2</h6>
+        <ul class="list-unstyled">
+          <li><a class="text-muted" href="#">Dummy Link 1</a></li>
+          <li><a class="text-muted" href="#">Dummy Link 2</a></li>
+          <li><a class="text-muted" href="#">Dummy Link 3</a></li>
+          <li><a class="text-muted" href="#">Dummy Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="bg-light">
+        <p class="text-muted text-center small mb-0">&copy; 2022 My Website. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  window.addEventListener('scroll', function() {
+    var progress = document.getElementById('progress-bar');
+    var totalHeight = document.body.scrollHeight - window.innerHeight;
+    var progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.width = progressHeight + '%';
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/95633e389d.js" crossorigin="anonymous"></script>
+  
+
+
+  
+  
+  
+  
+
+      
+      
+
+	</body>
+    </html>
